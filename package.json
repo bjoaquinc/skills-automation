@@ -1,0 +1,23 @@
+{
+  "name": "skills-automation",
+  "version": "1.0.0",
+  "description": "Automate npx skills CLI with node-pty",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/automate-skills.ts",
+    "custom": "tsx src/example-custom.ts",
+    "test-pty": "tsx src/test-pty.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.0.10",
+    "node-pty": "^1.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
