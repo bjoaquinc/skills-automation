@@ -19,7 +19,7 @@ class CLI {
 
     this.proc.onData(data => {
       this.buffer += data;
-      process.stdout.write(data);
+      // Suppressed: process.stdout.write(data);
     });
   }
 
